@@ -1,0 +1,110 @@
+# 🎨 Personal Portfolio Website
+
+A modern, clean, and fully responsive **Personal Portfolio Website** built using **HTML, CSS, SASS, and JavaScript**.
+This project focuses on smooth scrolling, section-based navigation, and a professional UI suitable for designers or developers.
+
+---
+
+## 🔗 Live Preview
+
+👉 *Add your live link here*
+
+---
+
+## 📸 Screenshots
+
+| Desktop View                                    |
+| ----------------------------------------------- |
+| ![Portfolio Screenshot](./screenshots/home.png) |
+
+> 📌 **How to add screenshots**
+>
+> 1. Create a folder named `screenshots`
+> 2. Take screenshots of your website
+> 3. Rename them (example: `home.png`, `about.png`)
+> 4. Put them inside the `screenshots` folder
+
+---
+
+## 🚀 Features
+
+* ✅ Fully Responsive (Mobile, Tablet, Desktop)
+* ✅ Smooth Scroll Animation
+* ✅ Single Page Navigation
+* ✅ Home / About / Portfolio / Testimonials / Contact
+* ✅ Clean & Modern UI Design
+* ✅ Cross-browser Compatible
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML5**
+* **CSS3**
+* **SASS / SCSS**
+* **JavaScript (Vanilla JS)**
+
+---
+
+## 📂 Project Structure
+
+```bash
+project-folder/
+│
+├── index.html
+├── css/
+│   ├── style.css
+│   └── style.css.map
+├── scss/
+│   ├── _variables.scss
+│   ├── _reset.scss
+│   └── style.scss
+├── js/
+│   └── main.js
+├── images/
+├── screenshots/
+└── README.md
+```
+
+---
+
+## 🧭 Navigation (JavaScript)
+
+Smooth scrolling and section navigation handled using JavaScript:
+
+* Home → `#home`
+* About → `#about`
+* Portfolio → `#portfolio`
+* Testimonials → `#testimonials`
+* Contact → `#contact`
+
+---
+
+## 🖥️ How to Run Locally
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+open index.html
+```
+
+Or simply open `index.html` in your browser.
+
+---
+
+## 📬 Contact
+
+If you like this project or want to work together:
+
+* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+* 💼 Portfolio: your-portfolio-link
+
+---
+
+## 📜 License
+
+This project is open-source and free to use.
+
+---
+
+⭐ **If you like this project, don’t forget to give it a star!**
