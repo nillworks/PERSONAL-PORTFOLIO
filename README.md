@@ -19,10 +19,10 @@ developers.
 
 > 📌 **How to add screenshots**
 >
-> 1. Create a folder named `screenshots`
+> 1. Create a folder named `Preview`
 > 2. Take screenshots of your website
 > 3. Rename them (example: `home.png`, `about.png`)
-> 4. Put them inside the `screenshots` folder
+> 4. Put them inside the `Preview` folder
 
 ---
 
@@ -63,8 +63,8 @@ Smooth scrolling and section navigation handled using JavaScript:
 ## 🖥️ How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+https://github.com/nillworks/PERSONAL-PORTFOLIO.git
+cd PERSONAL-PORTFOLIO
 open index.html
 ```
 
@@ -76,8 +76,7 @@ Or simply open `index.html` in your browser.
 
 If you like this project or want to work together:
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-- 💼 Portfolio: your-portfolio-link
+- 📧 Email: [shiponworks@gmail.com](shiponworks@gmail.com)
 
 ---
 
