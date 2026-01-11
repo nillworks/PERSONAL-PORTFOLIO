@@ -1,0 +1,56 @@
+// Utilities
+@use 'utilities' as *;
+
+// **********************************************
+#header_area {
+  .top_header_area {
+    padding: 10px;
+    .logo {
+      flex-basis: 25%;
+      img {
+        width: 150px;
+        height: auto;
+        cursor: pointer;
+      }
+    }
+    .navigation_manu {
+      flex-basis: 50%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          margin: 0;
+          a {
+            text-decoration: none;
+            color: $textColor;
+            text-transform: capitalize;
+            font: {
+              size: 21px;
+            }
+          }
+        }
+      }
+      .mobile_ber_close {
+        display: none;
+        i {
+          color: black;
+          cursor: pointer;
+        }
+      }
+    }
+    .btn {
+      flex-basis: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .mobile_ber {
+      display: none;
+      flex-basis: 4%;
+    }
+  }
+}

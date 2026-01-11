@@ -1,0 +1,412 @@
+// Utilities
+@use 'utilities' as *;
+
+// *********************************************
+
+//* Phone responsive
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  // Header Area Responcive.
+  #header_area {
+    .top_header_area {
+      position: relative;
+      padding: 14px;
+      .logo {
+        img {
+          width: 250px;
+          height: auto;
+          cursor: pointer;
+        }
+      }
+      .navigation_manu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        padding: 10px;
+        background: rgba(94, 59, 238, 0.2);
+        backdrop-filter: blur(10px);
+        height: 100vh;
+        transition: 0.3s ease;
+        z-index: 999;
+        ul {
+          display: inline-block;
+          position: absolute;
+          top: 80px;
+          li {
+            margin-bottom: 20px;
+
+            a {
+              display: block;
+              color: $textColor;
+              transition: 0.7s;
+              text-transform: uppercase;
+              text-align: center;
+              &:hover {
+                color: $dribbleColor;
+              }
+            }
+          }
+        }
+        .mobile_ber_close {
+          display: block;
+          position: absolute;
+          top: 40px;
+          right: 40px;
+
+          i {
+            cursor: pointer;
+            font-size: 42px;
+            color: $primaryColor;
+          }
+        }
+        &.open {
+          right: 0;
+        }
+      }
+      .btn {
+        flex-basis: 44%;
+        margin-right: 16px;
+        .btn-cta {
+          font-size: 14px;
+          padding: 10px 14px;
+        }
+      }
+      .mobile_ber {
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 0;
+        flex-basis: 4%;
+        padding: 8px;
+        i {
+          cursor: pointer;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  // Hero Area Responcive
+  #hero_area {
+    padding: 1%;
+    .inner {
+      flex-direction: column;
+    }
+    .hero_details {
+      order: 0;
+      h2 {
+        width: 96%;
+        font: {
+          size: 32px;
+        }
+        span {
+          color: $primaryColor;
+        }
+      }
+      p {
+        margin-top: 10px;
+        width: 88%;
+        margin-bottom: 30px;
+      }
+    }
+    .hero_img {
+      order: 1;
+    }
+  }
+  // Skill Area Style
+  #skills_area {
+    .inner_grid {
+      grid-template-columns: repeat(1, 330px);
+    }
+  }
+  // About Area Responcive
+  #About_area {
+    .inner {
+      flex-direction: column;
+    }
+  }
+  // Portfolio Area Responcive
+  #portfolio_area {
+    padding: 10px;
+    .inner_grid {
+      grid-template-columns: repeat(1, 340px);
+    }
+  }
+  // Clients Testimonials
+  #Clients_testimonials_area {
+    .inner_grid {
+      grid-template-columns: repeat(1, 340px);
+    }
+  }
+  // Footer Area Responcive
+  #footer_area {
+    padding: 20px;
+    .section1footer {
+      .navigation_manu {
+        display: none;
+      }
+    }
+    .section2footer {
+      .inner {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+//* Tablet Responcive
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  // Header Area Responcive.
+  #header_area {
+    .top_header_area {
+      position: relative;
+      padding: 14px;
+      .logo {
+        img {
+          width: 250px;
+          height: auto;
+          cursor: pointer;
+        }
+      }
+      .navigation_manu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        padding: 10px;
+        background: rgba(94, 59, 238, 0.2);
+        backdrop-filter: blur(10px);
+        height: 100vh;
+        transition: 0.3s ease;
+        z-index: 999;
+        ul {
+          display: inline-block;
+          position: absolute;
+          top: 80px;
+          li {
+            margin-bottom: 20px;
+
+            a {
+              display: block;
+              color: $textColor;
+              transition: 0.7s;
+              text-transform: uppercase;
+              text-align: center;
+              &:hover {
+                color: $dribbleColor;
+              }
+            }
+          }
+        }
+        .mobile_ber_close {
+          display: block;
+          position: absolute;
+          top: 40px;
+          right: 40px;
+
+          i {
+            cursor: pointer;
+            font-size: 42px;
+            color: $primaryColor;
+          }
+        }
+        &.open {
+          right: 0;
+        }
+      }
+      .btn {
+        margin-right: 40px;
+        .btn-cta {
+          font-size: 14px;
+          padding: 10px 14px;
+        }
+      }
+      .mobile_ber {
+        display: block;
+        flex-basis: 4%;
+        padding: 8px;
+        margin-right: 20px;
+        i {
+          cursor: pointer;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  // Hero Area Responcive
+  #hero_area {
+    padding: 1%;
+    .inner {
+      flex-direction: column;
+    }
+    .hero_details {
+      order: 0;
+      h2 {
+        width: 55%;
+        font: {
+          size: 32px;
+        }
+        span {
+          color: $primaryColor;
+        }
+      }
+      p {
+        margin-top: 10px;
+        width: 56%;
+        margin-bottom: 30px;
+      }
+    }
+    .hero_img {
+      order: 1;
+    }
+  }
+  // Skill Area Style
+  #skills_area {
+    .inner_grid {
+      grid-template-columns: repeat(2, 330px);
+    }
+  }
+  // About Area Responcive
+  #About_area {
+    .inner {
+      flex-direction: column;
+    }
+    .about_details {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      p {
+        width: 70%;
+      }
+    }
+  }
+  // Portfolio Area Responcive
+  #portfolio_area {
+    padding: 10px;
+    .inner_grid {
+      grid-template-columns: repeat(2, 340px);
+    }
+  }
+  // Clients Testimonials
+  #Clients_testimonials_area {
+    .inner_grid {
+      grid-template-columns: repeat(2, 320px);
+    }
+  }
+  // Footer Area Responcive
+  #footer_area {
+    padding: 20px;
+    .section1footer {
+      .navigation_manu {
+        display: none;
+      }
+    }
+    .section2footer {
+      .inner {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+//* Laptop Responcive
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  // Header Area Responcive.
+  #header_area {
+    .top_header_area {
+      position: relative;
+      padding: 14px;
+      .logo {
+        img {
+          width: 250px;
+          height: auto;
+          cursor: pointer;
+        }
+      }
+      .navigation_manu {
+        flex-basis: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn {
+        display: none;
+      }
+    }
+  }
+  // Hero Area Responcive
+  #hero_area {
+    padding: 1%;
+    .inner {
+      flex-direction: column;
+    }
+    .hero_details {
+      order: 0;
+      h2 {
+        width: 55%;
+        font: {
+          size: 32px;
+        }
+        span {
+          color: $primaryColor;
+        }
+      }
+      p {
+        margin-top: 10px;
+        width: 56%;
+        margin-bottom: 30px;
+      }
+    }
+    .hero_img {
+      order: 1;
+    }
+  }
+  // Skill Area Style
+  #skills_area {
+    .inner_grid {
+      grid-template-columns: repeat(2, 330px);
+    }
+  }
+  // About Area Responcive
+  #About_area {
+    .inner {
+      flex-direction: column;
+    }
+    .about_details {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      p {
+        width: 70%;
+      }
+    }
+  }
+  // Portfolio Area Responcive
+  #portfolio_area {
+    padding: 10px;
+    .inner_grid {
+      grid-template-columns: repeat(3, 300px);
+    }
+  }
+  // Clients Testimonials
+  #Clients_testimonials_area {
+    .inner_grid {
+      grid-template-columns: repeat(3, 300px);
+    }
+  }
+  // Footer Area Responcive
+  #footer_area {
+    padding: 20px;
+    .section1footer {
+      .navigation_manu {
+        display: none;
+      }
+    }
+    .section2footer {
+      .inner {
+        flex-direction: column;
+      }
+    }
+  }
+}

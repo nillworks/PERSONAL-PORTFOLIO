@@ -1,0 +1,42 @@
+// Utilities
+@use 'utilities' as *;
+
+// ***************************************************************
+
+//Clients Testimonials
+
+#Clients_testimonials_area {
+  .inner_grid {
+    grid-template-columns: repeat(3, 300px);
+    align-items: center;
+    justify-content: center;
+  }
+  .cards_clients_feedback {
+    border: 1px solid rgb(0, 107, 106);
+    border-radius: 10px;
+    padding: 10px 14px;
+    box-shadow: $boxShadow;
+    transition: 0.5s all ease-in-out;
+    img {
+      width: 80px;
+      height: auto;
+    }
+    p {
+      margin: 10px 0;
+    }
+    .clients_profile {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      img {
+        width: 74px;
+        height: auto;
+      }
+    }
+    &:hover {
+      box-shadow: $boxShadowClientsCards;
+      transform: translateY(-10px);
+    }
+  }
+}

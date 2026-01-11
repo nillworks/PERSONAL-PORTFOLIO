@@ -1,0 +1,39 @@
+// Utilities
+@use 'utilities' as *;
+
+// ***********************************************
+
+// Hero Area Style
+
+#hero_area {
+  background: $bgSectionColor;
+  .hero_details {
+    order: 0;
+    flex-basis: 50%;
+    padding: 2%;
+    h2 {
+      margin-top: 12px;
+      width: 78%;
+      font: {
+        size: 42px;
+      }
+      span {
+        color: $primaryColor;
+      }
+    }
+    h6 {
+      text-transform: uppercase;
+      word-spacing: 5px;
+      color: $dribbleColor;
+    }
+    p {
+      margin-top: 10px;
+      width: 60%;
+      margin-bottom: 30px;
+    }
+  }
+  .hero_img {
+    order: 1;
+    flex-basis: 50%;
+  }
+}

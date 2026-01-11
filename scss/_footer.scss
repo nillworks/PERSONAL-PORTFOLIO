@@ -1,0 +1,51 @@
+// Utilities
+@use 'utilities' as *;
+
+// **********************************
+#footer_area {
+  padding: 10px;
+  .section1footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .logo {
+      flex-basis: 32%;
+      img {
+        width: 100px;
+      }
+    }
+    .navigation_manu {
+      flex-basis: 32%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      ul {
+        margin: 0;
+        li {
+          margin: 0;
+          a {
+            text-decoration: none;
+            color: $headingColor;
+          }
+        }
+      }
+    }
+    .socil_area {
+      flex-basis: 32%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    border-bottom: 1px solid #ddd;
+  }
+  .section2footer {
+    padding: 10px 0;
+    .right {
+      span {
+        margin-top: 10px;
+        margin-right: 12px;
+      }
+    }
+  }
+}

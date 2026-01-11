@@ -1,0 +1,123 @@
+// Color All Style Varabul
+$primaryColor: #5e3bee;
+$bgSectionColor: #f5fcff;
+$dribbleColor: #e62872;
+$headingColor: #282938;
+$textColor: #1c1e53;
+
+// white Color
+$whiteColor: #ffffff;
+
+// Fonts Family
+$pyFontf: 'Roboto', sans-serif;
+$srcFontf: 'Fondamento', cursive;
+
+// Fonts Weight
+$fontW400: 400;
+$fontW500: 500;
+$fontW600: 600;
+$fontW700: 700;
+$boxShadow: -4px 0 6px rgba(0, 0, 0, 0.1), 4px 0 6px rgba(0, 0, 0, 0.1);
+$boxShadow2: -4px 0 6px rgba(12, 71, 197, 0.2), 4px 0 6px rgba(194, 20, 20, 0.2);
+$boxShadowClientsCards: -4px 0 6px rgb(0, 107, 106, 0.3),
+  4px 0 6px rgb(0, 107, 106, 0.3);
+body {
+  background: $whiteColor;
+  font-family: $pyFontf;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headingColor;
+  line-height: 1.4em;
+}
+p {
+  color: $textColor;
+  line-height: 1.3em;
+  font: {
+    size: 14px;
+  }
+}
+
+// container Style
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  //* Phone responcive
+  @media only screen and (min-width: 200px) and (max-width: 768px) {
+    width: 96%;
+  }
+  //* Tablet Responcive
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 96%;
+  }
+  //* Laptop Responcive
+  @media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    width: 96%;
+  }
+}
+
+// Buttan Style Costoms
+.btn-cta {
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  background: transparent;
+  color: $primaryColor;
+  padding: 18px 40px;
+  border: 1px solid $primaryColor;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.5s all;
+  font: {
+    size: 18px;
+  }
+  &:hover {
+    color: $whiteColor;
+    background: $primaryColor;
+  }
+}
+
+// paddingXl style.
+
+.paddingXl {
+  padding: 60px 0;
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    padding: 25px 0;
+  }
+}
+
+// M Top Style
+.m-top {
+  margin-top: 45px;
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    margin-top: 25px;
+  }
+}
+
+.title {
+  font: {
+    size: 15px;
+  }
+  margin: 10px 0;
+}
+.sub-title {
+  font: {
+    size: 40px;
+  }
+  margin: 10px 0;
+}
+.p-deteils {
+  width: 40%;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  font: {
+    size: 15px;
+  }
+  @media only screen and (min-width: 200px) and (max-width: 767px) {
+    width: 90%;
+  }
+}

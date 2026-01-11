@@ -1,0 +1,37 @@
+/* Costom Css  */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 25px;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 290px);
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}

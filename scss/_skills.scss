@@ -1,0 +1,55 @@
+// Utilities
+@use 'utilities' as *;
+
+// *************************************************************
+
+// Skills Area Style
+
+#skills_area {
+  .title {
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    color: $primaryColor;
+  }
+  .sub-title {
+    margin: 20px 0;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    &:hover {
+      color: $dribbleColor;
+    }
+  }
+  .child_skills {
+    background: $bgSectionColor;
+    padding: 10px 0;
+    padding-left: 20px;
+    border-radius: 10px;
+    transition: border-color 0.5s, transform 0.5s;
+    border-bottom: 2px solid transparent;
+    transition: 0.9s;
+    img {
+      max-width: 60px;
+      height: auto;
+      display: block;
+    }
+    .details_skills {
+      h3 {
+        margin: 20px 0;
+        text-transform: uppercase;
+        font: {
+          size: 18px;
+        }
+      }
+      p {
+        width: 90%;
+      }
+    }
+    &:hover {
+      border-color: $primaryColor;
+      transform: translateY(-7px);
+      cursor: pointer;
+    }
+  }
+}
