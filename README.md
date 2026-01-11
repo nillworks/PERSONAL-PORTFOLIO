@@ -7,7 +7,7 @@ This project focuses on smooth scrolling, section-based navigation, and a profes
 
 ## 🔗 Live Preview
 
-👉 *Add your live link here*
+👉 *https://personalwebsites0.netlify.app/*
 
 ---
 
