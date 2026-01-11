@@ -1,7 +1,9 @@
 # 🎨 Personal Portfolio Website
 
-A modern, clean, and fully responsive **Personal Portfolio Website** built using **HTML, CSS, SASS, and JavaScript**.
-This project focuses on smooth scrolling, section-based navigation, and a professional UI suitable for designers or developers.
+A modern, clean, and fully responsive **Personal Portfolio Website** built using
+**HTML, CSS, SASS, and JavaScript**. This project focuses on smooth scrolling,
+section-based navigation, and a professional UI suitable for designers or
+developers.
 
 ---
 
@@ -13,9 +15,7 @@ This project focuses on smooth scrolling, section-based navigation, and a profes
 
 ## 📸 Screenshots
 
-| Desktop View                                    |
-| ----------------------------------------------- |
-| ![Portfolio Screenshot](./screenshots/home.png) |
+  <img src="./Preview/prewiewimg.png" alt="">
 
 > 📌 **How to add screenshots**
 >
@@ -28,43 +28,23 @@ This project focuses on smooth scrolling, section-based navigation, and a profes
 
 ## 🚀 Features
 
-* ✅ Fully Responsive (Mobile, Tablet, Desktop)
-* ✅ Smooth Scroll Animation
-* ✅ Single Page Navigation
-* ✅ Home / About / Portfolio / Testimonials / Contact
-* ✅ Clean & Modern UI Design
-* ✅ Cross-browser Compatible
+- ✅ Fully Responsive (Mobile, Tablet, Desktop)
+- ✅ Smooth Scroll Animation
+- ✅ Single Page Navigation
+- ✅ Home / About / Portfolio / Testimonials / Contact
+- ✅ Clean & Modern UI Design
+- ✅ Cross-browser Compatible
 
 ---
 
 ## 🛠️ Technologies Used
 
-* **HTML5**
-* **CSS3**
-* **SASS / SCSS**
-* **JavaScript (Vanilla JS)**
+- **HTML5**
+- **CSS3**
+- **SASS / SCSS**
+- **JavaScript (Vanilla JS)**
 
 ---
-
-## 📂 Project Structure
-
-```bash
-project-folder/
-│
-├── index.html
-├── css/
-│   ├── style.css
-│   └── style.css.map
-├── scss/
-│   ├── _variables.scss
-│   ├── _reset.scss
-│   └── style.scss
-├── js/
-│   └── main.js
-├── images/
-├── screenshots/
-└── README.md
-```
 
 ---
 
@@ -72,11 +52,11 @@ project-folder/
 
 Smooth scrolling and section navigation handled using JavaScript:
 
-* Home → `#home`
-* About → `#about`
-* Portfolio → `#portfolio`
-* Testimonials → `#testimonials`
-* Contact → `#contact`
+- Home → `#home`
+- About → `#about`
+- Portfolio → `#portfolio`
+- Testimonials → `#testimonials`
+- Contact → `#contact`
 
 ---
 
@@ -96,8 +76,8 @@ Or simply open `index.html` in your browser.
 
 If you like this project or want to work together:
 
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-* 💼 Portfolio: your-portfolio-link
+- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+- 💼 Portfolio: your-portfolio-link
 
 ---
 
